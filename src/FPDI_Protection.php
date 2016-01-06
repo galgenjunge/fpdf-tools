@@ -15,6 +15,7 @@
 	 *                                                                           *
 	 ****************************************************************************/
 	namespace Galgenjunge\FPDI;
+	use setasign/fpdi;
 
 	class FPDI_Protection extends FPDI {
 
