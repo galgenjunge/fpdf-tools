@@ -1,0 +1,8 @@
+{
+    "name": "galgenjunge/fpdi-protect",
+    "autoload": {
+        "psr-0" : {
+            "Galgenjunge\\FPDI" : "src"
+        }
+    }
+}
