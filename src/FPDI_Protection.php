@@ -14,8 +14,8 @@
 	 * so that you can import pages and create new protected pdf files.          *
 	 *                                                                           *
 	 ****************************************************************************/
-	namespace Galgenjunge\FPDI;
-	use Galgenjunge\FPDI;
+	namespace Galgenjunge\FPDI\Protect;
+	use Galgenjunge\FPDI\FPDI;
 
 	class FPDI_Protection extends FPDI {
 
