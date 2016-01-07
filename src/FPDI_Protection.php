@@ -219,7 +219,7 @@
 	    function _writeValue(&$value)
 	    {
 	        switch ($value[0]) {
-	            case pdf_parser::TYPE_STRING:
+	            case \fpdi\pdf_parser::TYPE_STRING:
 	                if ($this->encrypted) {
 	                    $value[1] = $this->_unescape($value[1]);
 	                    $value[1] = $this->_RC4($this->_objectkey($this->_currentObjId), $value[1]);
@@ -227,13 +227,13 @@
 	                }
 	                break;
 	
-	            case pdf_parser::TYPE_STREAM :
+	            case \fpdi\pdf_parser::TYPE_STREAM :
 	                if ($this->encrypted) {
 	                    $value[2][1] = $this->_RC4($this->_objectkey($this->_currentObjId), $value[2][1]);
 	                }
 	                break;
 	
-	            case pdf_parser::TYPE_HEX :
+	            case \fpdi\pdf_parser::TYPE_HEX :
 	
 	                if ($this->encrypted) {
 	                    $value[1] = $this->hex2str($value[1]);
