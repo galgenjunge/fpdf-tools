@@ -1,8 +1,9 @@
 {
-    "name": "galgenjunge/fpdi-protect",
+    "name": "galgenjunge/fpdi-tools",
     "autoload": {
-        "psr-4" : {
-            "Galgenjunge\\FPDI\\Protect\\" : "src/"
-        }
+        "classmap": [
+                "src/",
+            ]
+        },
     }
 }
