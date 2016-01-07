@@ -2,8 +2,7 @@
     "name": "galgenjunge/fpdf-tools",
     "autoload": {
         "classmap": [
-                "src/",
-            ]
-        },
+            "src/"
+        ]
     }
 }
